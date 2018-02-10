@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOTON DE PAGO</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+	<div class="container">
+  <h1>Pagos Restaurante Gimnacio Campestre</h1>
+  <div class="row">
+    <div class="col-sm-6" style="background-color:;">
+    	<h3>Primaria</h3>
+      <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+  <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_grande.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+  <input name="buttonId" type="hidden" value="ZudkDoEcne6IBQX6Z0MnF9v70vopsyNRRTnUhdH6+6PWDZXinBm4AQ=="/>
+  <input name="merchantId" type="hidden" value="705090"/>
+  <input name="accountId" type="hidden" value="708189"/>
+  <input name="description" type="hidden" value="Restaurante Primaria "/>
+  <input name="referenceCode" type="hidden" value="01"/>
+  <input name="amount" type="hidden" value="115000"/>
+  <input name="tax" type="hidden" value="0"/>
+  <input name="taxReturnBase" type="hidden" value="0"/>
+  <input name="shipmentValue" value="0" type="hidden"/>
+  <input name="currency" type="hidden" value="COP"/>
+  <input name="lng" type="hidden" value="es"/>
+  <input name="displayShippingInformation" type="hidden" value="YES"/>
+  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+  <input name="buttonType" value="SIMPLE" type="hidden"/>
+  <input name="signature" value="5b2fe99d5949d06478d11fa32a219fccf4dc5788628a3606bd9b040c3fe6c63f" type="hidden"/>
+</form>
+<h3>115.000</h3>
+    </div>
+    <div class="col-sm-6" style="background-color:;">
+    	<h3>Bachillerato</h3>
+      <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+  <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_grande.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+  <input name="buttonId" type="hidden" value="zav4C5x0urh+42EaalR4miefVA63rJNe/JUtgJIkEmwfYddQRlILMg=="/>
+  <input name="merchantId" type="hidden" value="705090"/>
+  <input name="accountId" type="hidden" value="708189"/>
+  <input name="description" type="hidden" value="Restaurante Bachillerato"/>
+  <input name="referenceCode" type="hidden" value="01"/>
+  <input name="amount" type="hidden" value="135000"/>
+  <input name="tax" type="hidden" value="0"/>
+  <input name="taxReturnBase" type="hidden" value="0"/>
+  <input name="shipmentValue" value="0" type="hidden"/>
+  <input name="currency" type="hidden" value="COP"/>
+  <input name="lng" type="hidden" value="es"/>
+  <input name="displayShippingInformation" type="hidden" value="YES"/>
+  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+  <input name="buttonType" value="SIMPLE" type="hidden"/>
+  <input name="signature" value="55437afb16e1edd0e8653f4a21b826b1449ffb0db9013572ecb1c1920ed35558" type="hidden"/>
+</form>
+<h3>135.000</h3>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  
+  <div class="row">
+    <div class="col-sm-6" style="background-color:;">
+      <img src="img\1.jpg">
+    </div>
+    <div class="col-sm-6" style="background-color:;">
+      <img src="img\2.jpg">
+    </div>
+  </div>
+</div>
+
+	
+
+</body>
+</html>
